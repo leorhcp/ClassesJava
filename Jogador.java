@@ -4,6 +4,7 @@ public class Jogador {
     private String nome;
     private int num = 0;
     private int vidas = 0;
+    static int qtdJogadores = 0;
       
     //Criação de método construtor:
     public Jogador(String nome, int num){
