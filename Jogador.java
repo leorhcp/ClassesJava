@@ -11,7 +11,8 @@ public class Jogador {
         
         this.nome=nome;
         this.num=num;
-        this.vidas=0;     
+        this.vidas=0;
+        qtdJogadores++;     
         System.out.printf("Jogador %s, camisa %d criado.%n",nome, num);
 
     }
